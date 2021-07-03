@@ -21,9 +21,7 @@ Rick is distributed under the terms of the GNU GPL.
 
 == License ==
 * Q WordPress Theme - GPL License 
-* Armando WordPress Theme - GPL License
-* Clove WordPress Theme - GPL License 
-* Full Site Editing - https://fullsiteediting.com/terms-conditions/
+* Armando WordPress Theme - GPL License 
 
 == Screenshot Image ==
 CCO Image by Pxhere
