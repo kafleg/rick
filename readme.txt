@@ -25,5 +25,10 @@ Rick is distributed under the terms of the GNU GPL.
 
 == Screenshot Image ==
 CCO Image by Pxhere
-Source: https://pxhere.com/en/photo/590395
+Source: https://pxhere.com/en/photo/141361
 License: https://pxhere.com/en/license
+
+CCO Image by Pxhere
+Source: https://pxhere.com/en/photo/652874
+License: https://pxhere.com/en/license
+
