@@ -25,7 +25,6 @@ if ( ! function_exists( 'rick_setup' ) ) {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on Clove Blocks, use a find and replace
 		 * to change 'rick' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'rick' );
@@ -63,6 +62,18 @@ if ( ! function_exists( 'rick_setup' ) ) {
 	}
 }
 add_action( 'after_setup_theme', 'rick_setup' );
+
+/**
+ * Enqueue scripts and styles.
+ *
+ * @since 1.0.0
+ *
+ * @return void
+ */
+function rick_scripts() {
+	wp_enqueue_style( 'rick-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+}
+add_action( 'wp_enqueue_scripts', 'rick_scripts' );
 
 /**
  * Show '(no title)' in frontend if post has no title to make it selectable

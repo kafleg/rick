@@ -6,6 +6,15 @@
 			"wideSize": "calc(1.5 * (var(--wp--custom--typo--root-size) * 1px + var(--wp--custom--typo--adaptive-ratio) * 1vw) * var(--wp--custom--typo--line-width) / 2)",
 			"units": ["px", "em", "rem", "%", "vw"]
 		},
+		"core/site-title": {
+                "elements": {
+                    "link": {
+                        "color": {
+                            "background": "; background:var(--wp--preset--gradient--dark-purple-neon-pink-split); -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent;"
+                        }
+                    }
+                }
+        },
 		"typography": {
 			"fontSizes": [
 				{
