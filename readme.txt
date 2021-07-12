@@ -33,6 +33,9 @@ Source: https://pxhere.com/en/photo/652874
 License: https://pxhere.com/en/license
 
 == Changelog ==
+=== 1.0.3 ===
+* Theme URI Added
+
 === 1.0.2 ===
 * Fixed navigation issue
 
